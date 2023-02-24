@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Cls from './ClassComponent';
 import Contuncont from './contuncont';
+ import Faltu from './faltu';
 function App() {
   return (
     <div className="App">
@@ -10,6 +11,7 @@ function App() {
         <h2>This is working or not i am just check only</h2>
         {/* <Cls /> */}
         <Contuncont />
+        <Faltu />
     </div>
   );
 }
