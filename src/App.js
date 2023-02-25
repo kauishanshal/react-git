@@ -5,6 +5,10 @@ import Contuncont from './contuncont';
  import Faltu from './faltu';
  import Bind from './Bind';
  import Event from './Event';
+ import Eventcls from './eventcls';
+import Parent from './parent';
+import Parentfun from './Parentfun';
+import Listing from './Listing';
 function App() {
   return (
     <div className="App">
@@ -14,8 +18,13 @@ function App() {
         {/* <Cls /> */}
         {/* <Contuncont />
         <Faltu /> */}
-        <Bind />
+        {/* <Bind /> */}
         {/* <Event /> */}
+        {/* <Eventcls /> */}
+        {/* <Child /> */}
+        {/* <Parent /> */}
+        {/* <Parentfun /> */}
+        <Listing />
     </div>
   );
 }
